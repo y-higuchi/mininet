@@ -707,7 +707,7 @@ function all {
     # mn_dev
     of
     install_wireshark
-    # ovs
+    ovs
     # We may add ivs once it's more mature
     # ivs
     lagopus

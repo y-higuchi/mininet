@@ -56,11 +56,11 @@ def lagopusTest():
 
     net.start()
 
-    print "Checking whether switch class is Lagopus"
+    print( "Checking whether switch class is Lagopus" )
     for s in net.switches:
-        print repr(s)
+        print( repr(s) )
 
-    print "Testing connections"
+    print( "Testing connections" )
     net.pingAll()
 
     net.stop()
